@@ -6,8 +6,72 @@ light green boxes #A4FFD7
 orange boxes #FFC36C
 */
 
-body{
+* {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 	font-family: Arial, Helvetica, sans-serif;
-  }
+}
   
+nav {
+	width: 100vw;
+	padding: 10px 0px;	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #707070;
+	color: white;
+}
+
+.logo {
+	margin-left: 5vw;
+	font-weight: 300;
+}
+
+.nav-bar {
+	margin-right: 5vw;
+	justify-content: space-evenly;
+	font-size: .75em;
+}
+
+#nav2 {
+	margin: 0px 30px;
+}
+
+.textbox {
+	height: 25vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000000;
+	color: #E9E05F;
+}
+
+#big {
+	font-size: 3.5em;
+}
+
+.middle {
+	margin: 5vw;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.blue-box {
+	height: 175px;
+	width: 175px;
+	border-radius: 15px;
+	background-color: #A4FFD7;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+}
+
+footer {
+	height: 10vh;
+	background-color: #3A3A56;
+}
