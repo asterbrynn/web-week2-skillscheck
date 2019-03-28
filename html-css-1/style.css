@@ -53,8 +53,10 @@ nav {
 }
 
 .middle {
+	width: 90vw;
 	margin: 5vw;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 	align-content: center;
 }
@@ -66,12 +68,32 @@ nav {
 	background-color: #A4FFD7;
 }
 
+#box2-B {
+	margin: 10vw;
+}
+
+.orange-box {
+	margin: 5vw 0vw;
+	height: 150px;
+	width: 300px;
+	background-color: #FFC36C;
+}
+
+.bottom-middle {
+	flex-direction: row;
+}
+
+.smol {
+	width: 300px;
+	margin-bottom: 3vh;
+}
+
 img {
 	height: 100px;
 	width: 100px;
 }
 
 footer {
-	height: 10vh;
+	height: 9vh;
 	background-color: #3A3A56;
 }
