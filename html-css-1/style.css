@@ -1,0 +1,13 @@
+/*
+header #707070
+black box #000000
+yellow text #E9E05F
+light green boxes #A4FFD7
+orange boxes #FFC36C
+*/
+
+body{
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
