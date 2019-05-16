@@ -64,7 +64,7 @@ nav {
 	height: 175px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .blue-box {
@@ -76,7 +76,7 @@ nav {
 
 .row2 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .orange-box {
