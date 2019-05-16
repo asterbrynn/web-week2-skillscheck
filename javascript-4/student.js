@@ -52,7 +52,7 @@ function setColor(arr) {
 	}
 	background(...arr);
 }
-  
+
 //////////////////Step 5////////////////////
 //Create a function called 'setPowers' that takes in arr as a parameter. Loop over the arr param and run a function called createLi(), which will take each item of the array as an agument. The createLi function is a function we created to set the data on the screen. It outside the scope of this project.
 

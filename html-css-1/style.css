@@ -7,7 +7,7 @@ orange boxes #FFC36C
 */
 
 * {
-	max-width: 100vw;
+	max-width: 97.5vw;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -58,19 +58,25 @@ nav {
 	margin: 5vw;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
 }
 
-.top-row {
+.row1 {
 	height: 175px;
-	border: 1px solid black;
+	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
 
 .blue-box {
+	height: 175px;
 	width: 175px;
 	border-radius: 15px;
 	background-color: #A4FFD7;
+}
+
+.row2 {
+	display: flex;
+	justify-content: space-between;
 }
 
 .orange-box {
@@ -80,14 +86,21 @@ nav {
 	background-color: #FFC36C;
 }
 
+.row3 {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
 .smol {
-	width: 300px;
-	margin-bottom: 3vh;
+	width: 200px;
+	font-size: .75em;
+	position: relative;
 }
 
 img {
-	height: 100px;
-	width: 100px;
+	height: 125px;
+	width: 225px;
 }
 
 footer {
